@@ -7,7 +7,7 @@ var favorite color = 'green';
 var var = 'car';
 ```
 
-## possible solutions
+## Possible Solutions
 ```
 var pet1 = 'Bear';
 var baseballTeam = 'Dodgers';
