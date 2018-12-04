@@ -47,7 +47,7 @@ car['make'];   // 'Honda'
 car['origin year']; // 1984
 car['function'];    // 'drive'
 
-Dot vs. Bracket Notation
+// Dot vs. Bracket Notation
 car.color;  // 'red'
 car['color'];  // 'red'
 
