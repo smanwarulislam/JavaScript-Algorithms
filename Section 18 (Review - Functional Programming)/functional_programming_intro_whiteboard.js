@@ -17,7 +17,7 @@ map(['corn', 'cow', 'chicken'], cook) => ['popcorn', 'hamburger', 'egg']
 
 filter(['popcorn', 'hamburger', 'egg'], isVegetarian) => ['popcorn', 'egg']
 
-reduce(['popcorn', 'egg'], eat) => goes to a human on no - human body
+reduce(['popcorn', 'egg'], eat) => goes to a human or domestic animal body
 
 // Functional programming announces with filter():
 
