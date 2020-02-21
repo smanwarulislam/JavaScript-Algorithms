@@ -27,53 +27,54 @@ goOutside; // [72, 84, 92, 85, 72]
 
 // practice
 // filter method
-// pass a function to filter method and retrun an array of all elements that return a value of true
+// pass a function to filter method and return an array of all elements that return a value of true
 
 // solution
 
-var niceWeather = function (temp) {
+var niceWeather = function(temp) {
   return temp > 70;
-}
+};
 
 var goOutside = weather.filter(niceWeather);
 
 goOutside; // [72, 84, 92, 85, 72]
 
-var goOutside = weather.filter(function (temp) {
+var goOutside = weather.filter(function(temp) {
   return temp > 70;
-})
+});
 
 goOutside; // [72, 84, 92, 85, 72]
 
 // practice
 
 // for loop
-var forecast = [{
-    day: 'Monday',
+var forecast = [
+  {
+    day: "Monday",
     sun: true
   },
   {
-    day: 'Tuesday',
+    day: "Tuesday",
     sun: false
   },
   {
-    day: 'Wednesday',
+    day: "Wednesday",
     sun: false
   },
   {
-    day: 'Thursday',
+    day: "Thursday",
     sun: true
   },
   {
-    day: 'Friday',
+    day: "Friday",
     sun: false
   },
   {
-    day: 'Saturday',
+    day: "Saturday",
     sun: true
   },
   {
-    day: 'Sunday',
+    day: "Sunday",
     sun: false
   }
 ];
@@ -92,39 +93,40 @@ sunnyDays;
           {day: "Saturday", sun: true} */
 
 // Functional programming with filter():
-var forecast = [{
-    day: 'Monday',
+var forecast = [
+  {
+    day: "Monday",
     sun: true
   },
   {
-    day: 'Tuesday',
+    day: "Tuesday",
     sun: false
   },
   {
-    day: 'Wednesday',
+    day: "Wednesday",
     sun: false
   },
   {
-    day: 'Thursday',
+    day: "Thursday",
     sun: true
   },
   {
-    day: 'Friday',
+    day: "Friday",
     sun: false
   },
   {
-    day: 'Saturday',
+    day: "Saturday",
     sun: true
   },
   {
-    day: 'Sunday',
+    day: "Sunday",
     sun: false
   }
 ];
 
-var sunnyDays = forecast.filter(function (weather) {
+var sunnyDays = forecast.filter(function(weather) {
   return weather.sun;
-})
+});
 
 sunnyDays;
 /* {day: "Monday", sun: true}
