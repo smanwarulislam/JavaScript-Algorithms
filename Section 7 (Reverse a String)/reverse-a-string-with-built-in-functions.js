@@ -19,6 +19,28 @@
 // Array.prototype.join()
 // http://bit.ly/array-join
 
+// practice
+// String.prototype.split()
+const car = "Honda Civic";
+car.split('');
+// expected output: ["H", "o", "n", "d", "a", " ", "C", "i", "v", "i", "c"]
+
+car.split(' ');
+// expected output: ["Honda", "Civic"]
+
+// practice
+// Array.prototype.reverse()
+const reverseArray = ["Honda", "Civic"];
+reverseArray.reverse();
+// expected output: ["Civic", "Honda"]
+
+// practice
+// Array.prototype.join()
+const elements = ['Fire', 'Air', 'Water'];
+
+console.log(elements.join(''));
+// expected output: "FireAirWater"
+
 // Challenge - Solution
 function revString(str) {
   // step 1 -> split string into an array and assign to variable `arrayToString`
